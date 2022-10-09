@@ -100,7 +100,7 @@ Copy and paste the following line into the only available cell -
 
 `!git clone https://github.com/laurenceday/Dreambooth-Ion-Cannon.git`
 
-\- and then hit `Ctrl`+`Enter`. It's going to download 4.8 GB worth of files. If you've used a datacenter, this shouldn't take more than a couple of minutes.
+\- and then hit `Ctrl`+`Enter`. It's going to download 16 MB worth of files. This should be near instantaneous.
 
 Once you see the line `Checking out files: 100% (n/n), done.` you're finished here! Go back to the last tab you were in (the one you created this notebook from).
 
@@ -203,18 +203,20 @@ Click on `dreambooth_ion_cannon.ipynb`: a new tab will open.
 
 I've written a bit of text here that talks about - inter alia - who did the bulk of the work on this, how the naming scheme work for the training images again (just to drill it home), and some legal provisos. Underneath this text, there's a cell with two variables in it: `target_name` and `target_class`.
 
-These are the *only* things you'll need to edit. There are some other parameters there, but they are set to default values (and are explained in the notebook above that cell), so you don't _need_ to change them if you don't want to.
+These are the *only* things you'll need to edit. **Based on what you named the images in your training set**, edit these values now.
 
-**Based on what you named the images in your training set**, edit these values, and then select `Cell` > `Run All`.
+There are some other parameters there, but they are set to default values (and are explained in the notebook above that cell), so you don't _need_ to change them if you don't want to. Go and have a read in the notebook if you're curious.
+
+Now, select `Cell` > `Run All` from the menu bar above the notebook.
 
 You can now... go away for a while. The Jupyter notebook is going to do a few things:
 
-* Install all of the package dependencies needed,
-* Rebuild a full copy of the Stable Diffusion v1.4 base model from the multi-volume archive included in the repo,
+* Install all of the Python package dependencies needed,
+* Fetch a copy of the Stable Diffusion v1.4 base model from a separate repo, then reconstruct it locally,
 * Train the base model with the likeness of your target using the token identifier specified in the images,
 * Prune the resulting model checkpoint from ~12 GB to ~2 GB,
 * Move the pruned model into the `/trained_models` subdirectory, and
-* Start generating 64 images for each of several distinct prompts
+* Start generating images for each of several distinct prompts
 
 ![img.png](ion-cannon-images/Step17.PNG)
 
