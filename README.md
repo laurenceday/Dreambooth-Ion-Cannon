@@ -102,7 +102,7 @@ Copy and paste the following line into the only available cell -
 
 \- and then hit `Ctrl`+`Enter`. It's going to download 16 MB worth of files. This should be near instantaneous.
 
-Once you see the line `Checking out files: 100% (n/n), done.` you're finished here! Go back to the last tab you were in (the one you created this notebook from).
+Once you see the line `Resolving deltas (n/n)` you're finished here! Go back to the last tab you were in (the one you created this notebook from).
 
 ![img.png](ion-cannon-images/Step6.PNG)
 
