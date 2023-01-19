@@ -74,9 +74,9 @@ Note: if, when you hit `Open`, it gives you a _502 Bad Gateway_, just wait anoth
 
 ### IMPORTANT NOTE
 
-#### When you are finished with this guide and seen your results, make sure you hit the Stop button for your running instance (the black square above Open)!
+#### When you are finished with this guide and seen your results, make sure you hit the destroy button for your running instance (the trash can above Open)!
 
-#### If you don't, the rest of your credit will needlessly drain away over time.
+#### If you don't, the rest of your credit will needlessly drain away over time. If you want to re-start the instance later, use the stop/re-start buttons (you will incur storage charges)
 
 ![img.png](ion-cannon-images/Step4.PNG)
 
@@ -254,7 +254,7 @@ You'll want to click on these.
 
 ### Alert
 
-**Please** make sure that you **stop** your instance once you've finished (see Step 4 above): if you don't, you're going to come back to this in a few hours days wanting to try it on someone else, only to find that all of the credit that you purchased has dwindled away.
+**Please** make sure that you **destroy** your instance once you've finished (see Step 4 above): if you don't, you're going to come back to this in a few hours days wanting to try it on someone else, only to find that all of the credit that you purchased has dwindled away due to GPU or storage charges.
 
 It is best practice - both financially and for the purposes of minimising the time that images of people spend on third-party disk drives - to save the collages you like as you open them (I'll work on a process for pulling all of these out to a single location for you to download), and then **delete the instance** (the button to the left of the Stop square).
 
